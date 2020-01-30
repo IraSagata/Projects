@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.sign-in {
+  background-image: url(../img/background4.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sign-in-block {
+  padding-top: 170px;
+}
+.main-form {
+  border-radius: 10px;
+  background-color: rgb(232, 235, 238, 0.8);
+  padding: 36px;
+}
+.jumbotron {
+  background-color: rgb(232, 235, 238, 0.8);
+}
+.navbar-light .navbar-brand {
+  color: red;
+}
+a.navbar-brand {
+  font-family: "Bangers", cursive;
+  font-size: 35px;
+}
+.bg-light {
+  background-color: rgb(232, 235, 238, 0.8);
+}
+.card-img-top {
+  object-fit: cover;
+}
+@media screen and (max-width: 992px) {
+  div.jumbotron {
+    display: none;
+  }
+}
