@@ -202,8 +202,12 @@ main {
 .slider-section-btn:hover {
   text-decoration: none;
   color: #000000;
-  /* box-shadow: inset 0px -6px 0px 0px #c2adcc; */
   background-color: #c2adcc9a;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgb(148, 148, 148);
+  opacity: 0.2;
 }
 
 /* second section */
