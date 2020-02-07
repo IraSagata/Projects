@@ -204,11 +204,6 @@ main {
   color: #000000;
   background-color: #c2adcc9a;
 }
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-color: rgb(148, 148, 148);
-  opacity: 0.2;
-}
 
 /* second section */
 .section-step__items {
