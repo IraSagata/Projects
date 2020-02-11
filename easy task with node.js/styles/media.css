@@ -52,6 +52,7 @@
   .service-item__large__block img {
     max-width: 264px;
     height: 110px;
+    -o-object-fit: cover;
     object-fit: cover;
     margin-bottom: 68px;
   }
@@ -64,6 +65,7 @@
     max-width: 264px;
   }
   .lable img {
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
     position: absolute;
     left: 140px;
@@ -96,6 +98,8 @@
     padding-bottom: 5px;
   }
   .site-search {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .list-items {
@@ -130,6 +134,8 @@
     display: inline-block;
     text-align: center;
     margin-right: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .service-item:nth-child(2n + 1) {
